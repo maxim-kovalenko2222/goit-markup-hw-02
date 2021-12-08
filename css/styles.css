@@ -1,0 +1,108 @@
+.list {
+  list-style: none;
+}
+
+.button {
+  cursor: pointer;
+}
+
+/* Логотип */
+.logo {
+  color: #000000;
+  font-size: 26px;
+  text-decoration: none;
+  /* cursor: default; */
+}
+
+.logo-web {
+  color: #2196f3;
+}
+
+/* Список ссылок меню */
+.nav-list {
+  color: #000000;
+  text-decoration: none;
+}
+
+.nav-list:hover,
+.nav-list:focus {
+  color: #2196f3;
+}
+
+.nav-mail {
+  color: #757575;
+  text-decoration: none;
+}
+.nav-mail:hover,
+.nav-mail:focus {
+  color: #2196f3;
+}
+
+.nav-tel {
+  color: #757575;
+  text-decoration: none;
+}
+.nav-tel:hover,
+.nav-tel:focus {
+  color: #2196f3;
+}
+
+/* Герой */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+/* Чем мы занимаемся */
+
+.content-title {
+  text-transform: uppercase;
+  color: #212121;
+}
+.content-dscr {
+  color: #757575;
+}
+
+/* Команда */
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.team-title {
+  color: #212121;
+}
+
+.team-dscr {
+  color: #757575;
+}
+
+/* Footer */
+.footer {
+  background-color: #2f303a;
+}
+.footer-logo {
+  color: #ffffff;
+  font-size: 26px;
+  text-decoration: none;
+  /* cursor: default; */
+}
+
+.address-location {
+  color: #ffffff;
+  font-style: normal;
+}
+
+.address-mail,
+.address-tel {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-style: normal;
+}
