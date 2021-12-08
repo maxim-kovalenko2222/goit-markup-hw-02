@@ -106,3 +106,28 @@
   text-decoration: none;
   font-style: normal;
 }
+
+/* Страница портфолио */
+
+.filters-title,
+.projects-title {
+  display: none;
+}
+
+.filters-button {
+  background-color: #f5f4fa;
+}
+
+.filters-button:hover,
+.filters-button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+/* Проекты */
+.projects-img-list {
+  color: #212121;
+}
+.projects-dscr {
+  color: #757575;
+}
