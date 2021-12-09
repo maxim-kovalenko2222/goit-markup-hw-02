@@ -1,3 +1,13 @@
+body {
+  color: #000000;
+}
+
+:root {
+  --title-color: #212121
+  --second-color: #757575;
+  --hover-color: #2196f3;
+}
+
 .list {
   list-style: none;
 }
@@ -7,47 +17,46 @@
 }
 
 /* Логотип */
+
 .logo {
-  color: #000000;
   font-size: 26px;
   text-decoration: none;
   /* cursor: default; */
 }
 
 .logo-web {
-  color: #2196f3;
+  color: var(--hover-color);
 }
 
 /* Список ссылок меню */
+
 .nav-list {
-  color: #000000;
   text-decoration: none;
+  color: var(--title-color);
 }
 
 .nav-list:hover,
 .nav-list:focus {
-  color: #2196f3;
+  color: var(--hover-color);
 }
 
-.nav-mail {
-  color: #757575;
+.nav-mail,
+.nav-tel {
+  color: var(--second-color);
   text-decoration: none;
 }
 .nav-mail:hover,
 .nav-mail:focus {
-  color: #2196f3;
+  color: var(--hover-color);
 }
 
-.nav-tel {
-  color: #757575;
-  text-decoration: none;
-}
 .nav-tel:hover,
 .nav-tel:focus {
-  color: #2196f3;
+  color: var(--hover-color);
 }
 
 /* Герой */
+
 .hero {
   background-color: #2f303a;
 }
@@ -58,16 +67,17 @@
 
 .hero-button {
   color: #ffffff;
-  background-color: #2196f3;
+  background-color: var(--hover-color);
 }
+
 /* Чем мы занимаемся */
 
 .content-title {
   text-transform: uppercase;
-  color: #212121;
+  color: var(--title-color);
 }
 .content-dscr {
-  color: #757575;
+  color: var(--second-color);
 }
 
 /* Команда */
@@ -77,14 +87,15 @@
 }
 
 .team-title {
-  color: #212121;
+  color: var(--title-color);
 }
 
 .team-dscr {
-  color: #757575;
+  color: var(--second-color);
 }
 
 /* Footer */
+
 .footer {
   background-color: #2f303a;
 }
@@ -106,6 +117,15 @@
   text-decoration: none;
   font-style: normal;
 }
+.address-mail:hover,
+.address-mail:focus {
+  color: var(--hover-color);
+}
+
+.address-tel:hover,
+.address-tel:focus {
+  color: var(--hover-color);
+}
 
 /* Страница портфолио */
 
@@ -121,13 +141,14 @@
 .filters-button:hover,
 .filters-button:focus {
   color: #ffffff;
-  background-color: #2196f3;
+  background-color: var(--hover-color);
 }
 
 /* Проекты */
+
 .projects-img-list {
-  color: #212121;
+  color: var(--title-color);
 }
 .projects-dscr {
-  color: #757575;
+  color: var(--second-color);
 }
