@@ -1,11 +1,13 @@
 body {
   color: #000000;
+  font-family: Roboto, sans-serif;
 }
 
 :root {
   --title-color: #212121
   --second-color: #757575;
   --hover-color: #2196f3;
+  --hero-color: #ffffff;
 }
 
 .list {
@@ -21,11 +23,22 @@ body {
 .logo {
   font-size: 26px;
   text-decoration: none;
+  color: var(--title-color);
+
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
   /* cursor: default; */
 }
 
 .logo-web {
   color: var(--hover-color);
+
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 /* Список ссылок меню */
@@ -33,6 +46,12 @@ body {
 .nav-list {
   text-decoration: none;
   color: var(--title-color);
+ 
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .nav-list:hover,
@@ -44,6 +63,11 @@ body {
 .nav-tel {
   color: var(--second-color);
   text-decoration: none;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .nav-mail:hover,
 .nav-mail:focus {
@@ -61,25 +85,54 @@ body {
   background-color: #2f303a;
 }
 .hero-title {
-  color: #ffffff;
+  color: var(--hero-color);
+ 
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
 .hero-button {
-  color: #ffffff;
+  color: var(--hero-color);
   background-color: var(--hover-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
 }
 
 /* Чем мы занимаемся */
 
 .content-title {
-  text-transform: uppercase;
   color: var(--title-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .content-dscr {
   color: var(--second-color);
-}
 
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.main-title {
+  color: var(--title-color);
+  
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
 /* Команда */
 
 .team {
@@ -104,6 +157,10 @@ body {
   font-size: 26px;
   text-decoration: none;
   /* cursor: default; */
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 .address-location {
