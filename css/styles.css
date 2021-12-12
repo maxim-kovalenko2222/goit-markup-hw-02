@@ -32,13 +32,8 @@ body {
   letter-spacing: 0.03em;
 }
 
-.logo-web {
+.logo.web {
   color: var(--hover-color);
-
-  font-family: Raleway, sans-serif;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
 }
 
 /* Список ссылок меню */
@@ -149,15 +144,19 @@ body {
 .footer {
   background-color: var(--footer-background-color);
 }
+
 .footer-logo {
   color: #ffffff;
   font-size: 26px;
   text-decoration: none;
-  /* cursor: default; */
   font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+}
+
+.footer-logo.web {
+  color: var(--hover-color);
 }
 
 .address-location {
