@@ -1,13 +1,14 @@
 body {
-  color: #000000;
+  color: #212121;
   font-family: Roboto, sans-serif;
 }
 
 :root {
-  --title-color: #212121
   --second-color: #757575;
   --hover-color: #2196f3;
   --hero-color: #ffffff;
+  --filter-button-color: #f5f4fa;
+  --footer-background-color: #2f303a;
 }
 
 .list {
@@ -21,15 +22,14 @@ body {
 /* Логотип */
 
 .logo {
+  color: #212121;
   font-size: 26px;
   text-decoration: none;
-  color: var(--title-color);
 
   font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  /* cursor: default; */
 }
 
 .logo-web {
@@ -44,9 +44,8 @@ body {
 /* Список ссылок меню */
 
 .nav-list {
+  color: #212121;
   text-decoration: none;
-  color: var(--title-color);
- 
 
   font-weight: 500;
   font-size: 14px;
@@ -86,7 +85,7 @@ body {
 }
 .hero-title {
   color: var(--hero-color);
- 
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -108,8 +107,6 @@ body {
 /* Чем мы занимаемся */
 
 .content-title {
-  color: var(--title-color);
-
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -119,14 +116,11 @@ body {
 .content-dscr {
   color: var(--second-color);
 
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 .main-title {
-  color: var(--title-color);
-  
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -135,22 +129,25 @@ body {
 }
 /* Команда */
 
-.team {
-  background-color: #f5f4fa;
-}
-
 .team-title {
-  color: var(--title-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 
 .team-dscr {
   color: var(--second-color);
+
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 
 /* Footer */
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--footer-background-color);
 }
 .footer-logo {
   color: #ffffff;
@@ -165,14 +162,22 @@ body {
 
 .address-location {
   color: #ffffff;
+
   font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .address-mail,
 .address-tel {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+
   font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .address-mail:hover,
 .address-mail:focus {
@@ -192,7 +197,13 @@ body {
 }
 
 .filters-button {
-  background-color: #f5f4fa;
+  background-color: var(--filter-button-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .filters-button:hover,
@@ -204,8 +215,16 @@ body {
 /* Проекты */
 
 .projects-img-list {
-  color: var(--title-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
+
 .projects-dscr {
   color: var(--second-color);
+
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
